@@ -1,0 +1,49 @@
+.titulo-detalhes-evento{
+    text-align: center;
+    font-size: 3rem;
+    margin-block: 3rem;
+}
+.voltar{
+    display:flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+.container-detalhes-evento{
+    padding-inline:5rem;
+    display: flex;
+    gap: 5rem;
+}
+.container-detalhes-evento img{
+    max-width: 45rem;
+    max-height: 70rem;
+}
+.container-detalhes-evento h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.container-detalhes-evento p{
+    font-size: 1.8rem;
+}
+.container-detalhes-evento .data-evento{
+    font-weight: bold;
+    font-size: 3rem;
+    color: blueviolet;
+
+}
+.container-detalhes-evento button{
+    cursor: pointer;
+    font-size: 3rem;
+    background-color: blueviolet;
+    width: fit-content;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.container-detalhes-evento button:hover{
+    background-color: rgb(66, 23, 107); 
+}

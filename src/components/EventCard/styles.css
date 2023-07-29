@@ -1,0 +1,63 @@
+.card-eventos {
+    width: 22rem;
+    height: fit-content;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    border: 1px solid gray;
+    background-color: aliceblue;
+    
+  }
+  
+  .card-eventos img {
+    width: 100%;
+    height: 15rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .infos-evento {
+    height: 15rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .infos-evento div button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+
+  .infos-evento div button:hover{
+    text-decoration: underline;
+  }
+
+  .infos-evento div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:15rem;
+  }
+
+  .infos-evento p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .infos-evento span {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+  }
+
+  .infos-evento .delete {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(162, 0, 0);
+    padding: 0.5rem;
+    cursor: pointer;
+  }

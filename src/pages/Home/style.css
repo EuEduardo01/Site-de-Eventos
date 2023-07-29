@@ -1,0 +1,136 @@
+.titulo-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin-top: 10%;
+  
+  }
+  .titulo-eventos {
+    font-size: 4rem;
+    margin-block: 4rem;
+    color: white;
+    text-shadow: 1px 2px black;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 5rem;
+  }
+  
+  .btn-criar-evento {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    margin-left: 5rem;
+    font-size: 2rem;
+    color: #000;
+    background-color: aqua;
+  }
+  .btn-criar-evento:hover{
+    background-color:aquamarine;
+   
+  }
+  .events-types{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 4rem;
+    height: 20rem;
+    max-width: 85%;
+    margin: 3rem auto;
+  }
+
+  
+  .form-modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.695);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  
+  .container form {
+    width: 45rem;
+    height: fit-content;
+    max-height: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+    border-radius: 5px;
+    gap: 1rem;
+  }
+  
+  .container form div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  
+  .container form input {
+    padding: 1rem;
+    outline: none;
+  }
+  
+  .container form input[type=file] {
+    display: none;
+  }
+  
+  .container .label-imagem {
+    border: 1px solid gray;
+    padding: 2rem;
+  }
+  
+  .preview-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .preview-imagem img {
+    max-width: 75%;
+    max-height: 25rem;
+  }
+  
+  .container form button {
+    background-color: rgb(72, 0, 100);
+    border: none;
+    padding: 2rem;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 1.8rem;
+  }
+  
+  .container form button:hover {
+    background-color: rgb(54, 0, 76);
+  }
+  
+  .container-eventos {
+    /* width: 90rem; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  

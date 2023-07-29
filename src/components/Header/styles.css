@@ -1,0 +1,36 @@
+.header-padrão {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px gray;
+}
+
+.header-padrão img {
+    width: 2.2rem;
+    height: 2.5rem;
+}
+
+.header-padrão div, .header-padrão ul {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header-padrão ul {
+    list-style: none;
+}
+
+.header-padrão div ul li a {
+    text-decoration: none;
+    border: 1px solid rgb(78, 0, 166);
+    padding: 1rem;
+    border-radius: 35px;
+    color: rgb(78, 0, 166);
+    transition: 0.4s;
+}
+
+.header-padrão div ul li a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 0, 166);
+}
